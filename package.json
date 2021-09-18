@@ -1,0 +1,31 @@
+{
+  "name": "jasmine-node",
+  "version": "1.0.0",
+  "description": "Curso Udemy -  Aprenda Testes Unitários com Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test-jasmine": "jasmine",
+    "test-dev": "karma start",
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorPimentaTI/jasmine-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorPimentaTI/jasmine-node/issues"
+  },
+  "homepage": "https://github.com/VictorPimentaTI/jasmine-node#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "jasmine": "^3.9.0",
+    "karma": "^6.3.4",
+    "karma-browserify": "^8.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "watchify": "^4.0.0"
+  }
+}
